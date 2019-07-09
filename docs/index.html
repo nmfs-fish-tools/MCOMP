@@ -18,7 +18,7 @@
 
               
               
-              <div class = "badge" data-md-tooltip="Not Validated" id="greycheck">
+              <div class = "badge" data-md-tooltip="Support Level" id = internal_inactive >
               <!-- &#10039; -->
               </div>
               
@@ -46,14 +46,11 @@
               
 
               
-              <a href= "https://github.com/nmfs-fish-tools/MCOMP.git" target="_blank" title="link to code repository">
-                <button class = "codelink">
+                <button class = "codelink" id = "nolink">
                 Code Repository
                 </button>
-              </a>
               
-              <button class = "IconButton" title="need support?">
-                ?
+              <button class = "IconButton" title="e-mail fisheries.toolbox@noaa.gov" id ="email" onclick='location.href= "mailto:fisheries.toolbox@noaa.gov;"'>
               </button>
 
         </div>
@@ -68,14 +65,16 @@
 
               </div>
 
+
               
 
-              <!-- <a class = "githubIcon" href="https://github.com/nmfs-fish-tools/MCOMP.git" target="_blank"></a> -->
+              <!-- <a class = "githubIcon" href="" target="_blank"></a> -->
 
               <button class = "versionButton">
               Version 4.3
               </button>
         </div>
+
         <div class ="label">
             
              Type: model comparison tool
@@ -83,24 +82,46 @@
         </div>
 
         <div class = "authName">
-         author: Seaver
+         Author: Seaver
 
         </div >
 
         <div class ="mainText">
           The Model Compare (MComp) program allows the user to compare the results between VPA and ASAP estimation models as well as the simulated results from Age Based PopSim.  In addition, the program allows the user to display time series data from any alternate model as an additional comparative series.  The user may compare Stock Numbers, Fishing Mortality, Spawning Stock Biomass, Jan-1 Biomass and Survey Indices.   The user may compare up to three model results simultaneously.   Comparison may be across all years in the combined time series or alternatively for common years only.
         </div>
+
         <div class="mainText">
         
 
+
           
-            </div>
+
+            
+              <div class = "ref">
+            Code Repository Badges
+          </div>
+             
+
+              
+              <img src="https://www.repostatus.org/badges/latest/inactive.svg">
+              
+              
+
+          </div>
       </div>
 
       <div class = "divider"></div>
-        <footer> <a class ="mylink" href="https://www.commerce.gov/">U.S. Department of Commerce</a>
-    <a class ="mylink" href="https://www.noaa.gov">National Oceanographic and Atmospheric Administration</a>
-    <a class ="mylink" href="https://www.fisheries.noaa.gov/">NOAA Fisheries</a></footer>
+
+        <footer >
+             <img src="./static/noaa-fisheries-rgb-2line-horizontal-small.png" height="75px">
+         <div class="mywrap_center">
+          <a class ="mylink" id = "line" href="https://www.commerce.gov/">U.S. Department of Commerce</a>
+         <a class ="mylink" id = "line" href="https://www.noaa.gov">National Oceanographic and Atmospheric Administration</a>
+         <a class ="mylink" href="https://www.fisheries.noaa.gov/">NOAA Fisheries</a>
+         </div>
+
+        </footer>
+        <div class ="attribution">Icons by icons8 https://icons8.com/</div>
 
     </div>
 
